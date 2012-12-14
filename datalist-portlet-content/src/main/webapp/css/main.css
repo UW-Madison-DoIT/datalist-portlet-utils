@@ -1,0 +1,315 @@
+.block-overlay {
+    z-index: 1000;
+    border: medium none;
+    margin: 0pt;
+    padding: 0pt;
+    width: 100%;
+    height: 100%;
+    top: 0pt;
+    left: 0pt;
+    position: absolute;
+}
+.block-message-wraper {
+    z-index: 1001;
+    padding: 0px;
+    margin: 0px;
+    top: 0pt;
+    left: 0pt;
+    color: black;
+    background-color: white;
+    width: 100%;
+}
+.block-message-wraper .block-message {
+    text-align: left;
+    border-width: 2px;
+    background-color: white;
+    padding: 5px;
+}
+
+div.dl-link {
+    margin-top: .3em;
+}
+
+div.dl-banner-links {
+    width: 100%;
+    overflow: auto;
+    margin-top: .3em;
+    margin-bottom: 1em;
+}
+div.dl-banner-link {
+    float: left;
+    width: 90%
+}
+div.dl-help-link {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+/* Contact Information layout */
+.dl-contact-info .contact-info-name {
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.dl-contact-info .contact-info-other-job {
+    margin-top: .5em;
+}
+
+.dl-contact-info .label {
+    font-weight: bold;
+}
+
+.dl-contact-info .contact-info-address-type {
+    margin-top: 1em;
+}
+
+.dl-contact-info .dl-contact-info-update {
+    margin-top: 1em;
+}
+
+.dl-contact-info .change-business-email-dialog {
+    display: none;
+}
+.dl-label {
+    font-weight: bold;
+}
+.dl-email-admin .dl-email-update-label,
+.change-business-email-dialog .dl-email-update-label {
+    text-align: right;
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none;
+    color: black;
+}
+
+.dl-invalid-field {
+    outline-color: red;
+}
+.dl-validator-error {
+    /* supply height to ensure consistent positioning for every browser */
+    height:15px;
+    background-color:#FFFE36;
+    border:1px solid #E1E16D;
+    font-size:11px;
+    color:#000;
+    padding:3px 10px;
+    margin-left:-2px;
+    z-index: 2001;
+
+    /* CSS3 spicing for mozilla and webkit */
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius-bottomleft:0;
+    -moz-border-radius-topleft:0;
+    -webkit-border-bottom-left-radius:0;
+    -webkit-border-top-left-radius:0;
+
+    -moz-box-shadow:0 0 6px #ddd;
+    -webkit-box-shadow:0 0 6px #ddd;
+}
+
+/* Horizontal navigation using ul/li with pipe-like seperators */
+.dl-nav-links {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.dl-nav-links li {
+    display: inline;
+    padding: 0 .9em;
+    border-right: 1px solid #000;
+}
+
+.dl-nav-links li.first {
+    padding-left: 0;
+}
+
+.dl-nav-links li.last {
+    border: none;
+}
+
+/* Common table for displaying data */
+table.dl-table {
+    border: 0.1em solid #C9AB80 !important;
+    width: 100%;
+}
+
+table.dl-table th {
+    color: #000;
+}
+
+table.dl-table th.flc-pager-sort-header {
+    padding-right: 16px;
+}
+
+table.dl-table tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table.dl-table tr:nth-child(even) {
+    background-color: #EFE8DC;
+}
+
+table.dl-table td.dl-data-number {
+    text-align: right;
+}
+
+.fl-pager .fl-pager-data table.dl-table .fl-pager-desc {
+    background: url(../img/bullet_arrow_down.png) no-repeat right;
+}
+
+.fl-pager .fl-pager-data table.dl-table .fl-pager-asc {
+    background: url(../img/bullet_arrow_up.png) no-repeat right;
+}
+
+.data-table-description-header {
+    overflow: auto;
+    width: 100%;
+}
+.data-table-description-header .data-table-description {
+    float: left;
+}
+.data-table-description-header .data-table-details {
+    float: right;
+}
+.dl-earning-statements .dl-earnings-amount-toggle label,
+.dl-earning-statements .dl-earnings-amount-toggle input {
+    vertical-align: middle;
+}
+
+/* Logic for hiding the earnings statement amounts */
+table.dl-table a.dl-earning-amount {
+    display: none;
+}
+
+/* Logic for making an block clickable */
+.dl-clickable {
+    cursor: pointer;
+}
+.dl-clickable:HOVER a {
+    text-decoration: underline;
+}
+
+/* Pager UI Configs */
+.portlet .fl-pager .fl-pager-ui ul.dl-pager-bar li {
+    margin-right: 0;
+    padding: 0 2px;
+}
+
+.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar {
+    margin: 0;
+    text-align: left;
+}
+
+.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar ul {
+    margin: 0;
+}
+
+.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar li {
+    margin: 0;
+    padding: 1px 2px;
+}
+
+.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar ul.flc-pager-links a.fl-pager-currentPage {
+    font-weight: bold;
+}
+
+.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar ul.flc-pager-links li.flc-pager-pageLink,.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar ul.flc-pager-links li.flc-pager-pageLink-skip
+    {
+    width: 1.1em;
+    text-align: center;
+}
+
+.portlet .fl-pager ul.fl-pager-ui.dl-pager-bar li.flc-pager-summary {
+    float: right;
+}
+
+/* Generic table column width  */
+.dl-pager-table-data .dl-col-5p {
+    width: 5%;
+}
+
+.dl-pager-table-data .dl-col-15p {
+    width: 15%;
+}
+
+.dl-pager-table-data .dl-col-10p {
+    width: 10%;
+}
+
+.dl-pager-table-data .dl-col-20p {
+    width: 20%;
+}
+
+.dl-pager-table-data .dl-col-25p {
+    width: 25%;
+}
+
+.dl-pager-table-data .dl-col-30p {
+    width: 30%;
+}
+
+.dl-pager-table-data .dl-col-33p {
+    width: 33%;
+}
+
+.dl-pager-table-data .dl-col-35p {
+    width: 35%;
+}
+
+.dl-pager-table-data .dl-col-40p {
+    width: 40%;
+}
+
+.dl-pager-table-data .dl-col-45p {
+    width: 45%;
+}
+
+.dl-pager-table-data .dl-col-50p {
+    width: 50%;
+}
+
+.dl-pager-table-data .dl-col-55p {
+    width: 55%;
+}
+
+.dl-pager-table-data .dl-col-60p {
+    width: 60%;
+}
+
+.dl-pager-table-data .dl-col-65p {
+    width: 65%;
+}
+
+.dl-pager-table-data .dl-col-66p {
+    width: 66%;
+}
+
+.dl-pager-table-data .dl-col-70p {
+    width: 70%;
+}
+
+.dl-pager-table-data .dl-col-75p {
+    width: 75%;
+}
+
+.dl-pager-table-data .dl-col-80p {
+    width: 80%;
+}
+
+.dl-pager-table-data .dl-col-85p {
+    width: 85%;
+}
+
+.dl-pager-table-data .dl-col-90p {
+    width: 90%;
+}
+
+.dl-pager-table-data .dl-col-95p {
+    width: 95%;
+}
+.dl-notification-wrapper {
+    margin: 0 1em 1em;
+    padding: .2em;
+}
+
