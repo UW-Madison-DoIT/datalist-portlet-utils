@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jasig.portlet.datalist</groupId>
   <artifactId>datalist-portlet-utils-parent</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>DataList Portlet Utils - Parent</name>
