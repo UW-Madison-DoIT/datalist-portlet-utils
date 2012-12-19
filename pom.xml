@@ -17,7 +17,7 @@
 
   <name>DataList Portlet Utils - Parent</name>
   <description>Portlets that integrate with an HR system.</description>
-  <url>${jasig-site-base}/hrs-portlets/${project.version}</url>
+  <url>${jasig-site-base}/datalist-portlet-utils/${project.version}</url>
 
   <scm>
     <connection>scm:git:git://github.com/Jasig/datalist-portlet-utils.git</connection>
@@ -32,13 +32,13 @@
 
     <commons-io.version>2.4</commons-io.version>
     <guava.version>13.0.1</guava.version>
-    <httpcomponents.version>4.2.2</httpcomponents.version>
+    <httpcomponents.version>4.2.3</httpcomponents.version>
     <joda-time.version>2.1</joda-time.version>
     <portlet-api.version>2.0</portlet-api.version>
     <resource-server.version>1.0.27</resource-server.version>
     <servlet-api.version>2.5</servlet-api.version>
     <spring.version>3.1.3.RELEASE</spring.version>
-    <spring-ws.version>2.1.1.RELEASE</spring-ws.version>
+    <spring-ws.version>2.1.2.RELEASE</spring-ws.version>
     <slf4j.version>1.7.2</slf4j.version>
   </properties>
 
@@ -185,7 +185,7 @@
       <distributionManagement>
         <site>
           <id>ci-local-site</id>
-          <url>${jasig-site-ci-dist-base}/hrs-portlets/${project.version}</url>
+          <url>${jasig-site-ci-dist-base}/datalist-portlet-utils/${project.version}</url>
         </site>
       </distributionManagement>
     </profile>
@@ -196,7 +196,7 @@
       <distributionManagement>
         <site>
           <id>developer.jasig</id>
-          <url>${jasig-site-dist-base}/hrs-portlets/${project.version}</url>
+          <url>${jasig-site-dist-base}/datalist-portlet-utils/${project.version}</url>
         </site>
       </distributionManagement>
     </profile>
