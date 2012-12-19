@@ -20,9 +20,9 @@
   <url>${jasig-site-base}/datalist-portlet-utils/${project.version}</url>
 
   <scm>
-    <connection>scm:git:git://github.com/Jasig/datalist-portlet-utils.git</connection>
-    <developerConnection>scm:git:git@github.com:Jasig/datalist-portlet-utils.git</developerConnection>
-    <url>https://github.com/Jasig/datalist-portlet-utils</url>
+    <connection>scm:git:git://github.com/UW-Madison-DoIT/datalist-portlet-utils.git</connection>
+    <developerConnection>scm:git:git@github.com:UW-Madison-DoIT/datalist-portlet-utils.git</developerConnection>
+    <url>https://github.com/UW-Madison-DoIT/datalist-portlet-utils</url>
   </scm>
 
   <!-- Dependency Version Properties -->
