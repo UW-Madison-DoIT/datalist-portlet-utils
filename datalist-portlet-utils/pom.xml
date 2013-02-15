@@ -35,6 +35,10 @@
       <artifactId>httpcore</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.jasig.springframework</groupId>
+      <artifactId>spring-security-portlet-contrib</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
     </dependency>
