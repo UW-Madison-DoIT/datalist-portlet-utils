@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.jasig.portlet.datalist</groupId>
   <artifactId>datalist-portlet-utils-parent</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>pom</packaging>
 
   <name>DataList Portlet Utils - Parent</name>
@@ -21,6 +21,7 @@
     <connection>scm:git:git://github.com/UW-Madison-DoIT/datalist-portlet-utils.git</connection>
     <developerConnection>scm:git:git@github.com:UW-Madison-DoIT/datalist-portlet-utils.git</developerConnection>
     <url>https://github.com/UW-Madison-DoIT/datalist-portlet-utils</url>
+    <tag>datalist-portlet-utils-1.0.2</tag>
   </scm>
 
   <!-- Dependency Version Properties -->
